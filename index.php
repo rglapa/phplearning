@@ -23,5 +23,10 @@
 <p><button onclick="location.href='/jquery_learning/GetPost.php'">Link to GetPost</button></p>
 <p><button onclick="location.href='/jquery_learning/Hover.php'">Link to Hover</button></p>
 <p><button onclick="location.href='php_learning/Echoing.php'">Link to Echoing</button></p>
+<p><button onclick="location.href='php_learning/Abstract.php'">Link to Abstract</button>
+    <button onclick="location.href='php_learning/Interfaces.php'">Link to Interfaces</button>
+    <button onclick="location.href='php_learning/Iterables.php'">Link to Iterables</button>
+
+</p>
 </body>
 </html>
