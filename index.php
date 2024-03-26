@@ -2,111 +2,13 @@
 <html lang='en'>
 <head>
     <title>Home Page</title>
-    <style>
-        html {
-            padding: 50px;
-            font-family: sans-serif;
-        }
-        html h1 {
-            text-align: center;
-        }
-        html h2 {
-            text-align: center;
-            color: grey;
-        }
-        #exampleSlider {
-            position: relative;
-            border: 1px solid black;
-        }
-        @media (max-width: 767px) {
-            #exampleSlider {
-                border-color: transparent;
-            }
-        }
-        #exampleSlider .MS-content {
-            margin: 15px 5%;
-            overflow: hidden;
-            white-space: nowrap;
-            border: 1px solid red;
-        }
-        @media (max-width: 767px) {
-            #exampleSlider .MS-content {
-                margin: 0;
-            }
-        }
-        #exampleSlider .MS-content .item {
-            display: inline-block;
-            height: 100%;
-            overflow: hidden;
-            position: relative;
-            vertical-align: top;
-            border: 1px solid green;
-            border-right: none;
-            width: 20%;
-        }
-        @media (max-width: 1200px) {
-            #exampleSlider .MS-content .item {
-                width: 25%;
-            }
-        }
-        @media (max-width: 992px) {
-            #exampleSlider .MS-content .item {
-                width: 33.3333%;
-            }
-        }
-        @media (max-width: 767px) {
-            #exampleSlider .MS-content .item {
-                width: 50%;
-            }
-        }
-        #exampleSlider .MS-content .item p {
-            font-size: 30px;
-            text-align: center;
-            line-height: 1;
-            vertical-align: middle;
-            margin: 0;
-            padding: 10px 0;
-        }
-        #exampleSlider .MS-controls button {
-            position: absolute;
-            border: none;
-            background: transparent;
-            font-size: 30px;
-            outline: 0;
-            top: 35px;
-        }
-        @media (max-width: 767px) {
-            #exampleSlider .MS-controls button {
-                display: none;
-            }
-        }
-        #exampleSlider .MS-controls button:hover {
-            cursor: pointer;
-        }
-        #exampleSlider .MS-controls .MS-left {
-            left: 10px;
-            background: aqua;
-        }
-        @media (max-width: 992px) {
-            #exampleSlider .MS-controls .MS-left {
-                left: -2px;
-            }
-        }
-        #exampleSlider .MS-controls .MS-right {
-            right: 10px;
-        }
-        @media (max-width: 992px) {
-            #exampleSlider .MS-controls .MS-right {
-                right: -2px;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="/styles.css">
     <script src="jquery.js"></script>
     <script src="multislider/js/multislider.min.js"></script>
-
+    <script src="jquery.cycle.lite.js"></script>
 </head>
 <body>
+
 <div id="exampleSlider">
     <div class="MS-content">
         <div class="item">Item 1</div>
@@ -125,21 +27,9 @@
         <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
     </div>
 </div><br><br>
-<button>Send an HTTP GET request to a page and get the result back</button><br>
-<p><button onclick="location.href='/hello.php'">Link to Hello</button></p>
-<button onclick="location.href='/children.php'">Link to Children</button><br>
-<p><button onclick="location.href='/jquery_learning/AddClass.php'">Link to AddClass</button></p>
-<p><button onclick="location.href='/jquery_learning/RemoveClass.php'">Link to RemoveClass</button></p>
-<p><button onclick="location.href='/jquery_learning/Filtering.php'">Link to Filtering</button></p>
-<p><button onclick="location.href='/jquery_learning/GetPost.php'">Link to GetPost</button></p>
-<p><button onclick="location.href='/jquery_learning/Hover.php'">Link to Hover</button></p>
-<p><button onclick="location.href='php_learning/Echoing.php'">Link to Echoing</button></p>
-<p><button onclick="location.href='php_learning/Abstract.php'">Link to Abstract</button>
-    <button onclick="location.href='php_learning/Interfaces.php'">Link to Interfaces</button>
-    <button onclick="location.href='php_learning/Iterables.php'">Link to Iterables</button>
-    <button onClick="location.href='/php_learning/MySQLInsert.php'">Link to MySQL</button>
-</p>
-<button onclick="location.href='/jquery_learning/phpinfo.php'">Link to PHPInfo</button>
+<div id="slideshow1">
+
+</div>
 <script>
     $(function() {
         $("button").on("click", function() {
@@ -153,6 +43,94 @@
         slideAll: true,
         duration: 1500
     });
+    $('#slideshow1').cycle();
 </script>
+<button>Send an HTTP GET request to a page and get the result back</button><br>
+<br>
+<div id="main" >
+    <div class="box">
+        <a href='/hello.php'> Link to Hello</a>
+    </div>
+    <div  class="box">
+        <a href="/children.php">Link to children</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/AddClass.php">Link to AddClass</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/RemoveClass.php">Link to RemoveClass</a>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div class="box">
+        <a href="jquery_learning/Filtering.php">Link to Filtering</a>
+    </div>
+    <div class="box">
+        <a href="jquery_learning/GetPost.php">Link to GetPost</a>
+    </div>
+    <div class="box">
+        <a href="jquery_learning/Hover.php">Link to Hover</a>
+    </div>
+    <div class="box">
+        <a href="php_learning/Echoing.php">Link to Echoing</a>
+    </div>
+</div>
+<br>
+
+<div id="main">
+    <div class="box">
+        <a href="php_learning/Abstract.php">Link to Abstract</a>
+    </div>
+    <div class="box">
+        <a href="php_learning/Interfaces.php">Link to Interfaces</a>
+    </div>
+    <div class="box">
+        <a href="php_learning/Iterables.php">Link to Iterables</a>
+    </div>
+    <div class="box">
+        <a href="php_learning/MySQLInsert.php">Link to MySQL</a>
+    </div>
+</div>
+<br>
+
+<!-- Test comment -->
+<div id="main">
+    <div class="box" >
+        <a href="jquery_learning/phpinfo.php">Link to PHPInfo</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/Filters.php">Link to Filters</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/Constructor.php">Link to Constructor</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/Destructor.php">Link to Destructor</a>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div class="box">
+        <a href="/php_learning/StaticProperty.php">Link to Static Properties</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/Descendants.php">Link to Descendants</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/Appending.php">Link to Appending</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/Finding.php">Link to Finding</a>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div class="box">
+        <a href="/jquery_learning/Not.php">Link to Not</a>
+    </div>
+</div>
+<br>
+
 </body>
 </html>
