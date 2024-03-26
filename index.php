@@ -129,6 +129,9 @@
     <div class="box">
         <a href="/jquery_learning/Not.php">Link to Not</a>
     </div>
+    <div class="box">
+        <a href="/php_learning/CompleteForm.php">Link to CompleteForm</a>
+    </div>
 </div>
 <br>
 
