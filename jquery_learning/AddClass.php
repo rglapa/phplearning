@@ -3,8 +3,8 @@
     <head>
         <script src="jquery.js"></script>
         <script>
-            $(document).ready(function() {
-                $("button").click(function() {
+            $(function() {
+                $("button").on('click',(function() {
                     $("h1,h2,p").addClass("blue");
                     $("div").addClass("important");
                 })

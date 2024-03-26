@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Hover</title>
+    <link rel="stylesheet" href="/styles.css">
     <script src="/jquery.js"></script>
     <script>
         $(function() {
@@ -16,6 +17,8 @@
 </head>
 <body>
 <p id="p1">This is a paragraph</p>
-<p><button onclick="location.href='/index.php'">Link to Home</button></p>
+<div class="box">
+    <p><a href="/index.php">Link to Home</a></p>
+</div>
 </body>
 </html>
