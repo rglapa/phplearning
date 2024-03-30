@@ -132,8 +132,28 @@
     <div class="box">
         <a href="/php_learning/CompleteForm.php">Link to CompleteForm</a>
     </div>
+    <div class="box">
+        <a href="/php_learning/ForEach.php">Link to ForEach</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/LogicalOperators.php">Link to Logical Operators</a>
+    </div>
 </div>
 <br>
+<div id="main">
+    <div class="box">
+        <a href="/php_learning/PassingFunctions.php">Link to Passing Functions</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/Factorial.php">Link to Factorial</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/example.php">Link to AJAX Search</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/AutoComplete.php">Link to AutoComplete</a>
+    </div>
+</div>
 
 </body>
 </html>

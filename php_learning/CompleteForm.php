@@ -6,10 +6,15 @@
 </head>
 <body>
 <form action="Form.php" method="POST">
-    Name: <input type="text" name="name"><br>
+    Name: <label>
+        <input type="text" name="name">
+    </label><br>
     Email: <label>
         <input type="text" name="email">
     </label><br>
+    <label>
+        <input type="submit">
+    </label>
 </form>
 <br>
 <div class="box">
