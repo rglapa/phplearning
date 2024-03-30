@@ -144,6 +144,7 @@
     <div class="box">
         <a href="/php_learning/PassingFunctions.php">Link to Passing Functions</a>
     </div>
+    <!-- New test -->
     <div class="box">
         <a href="/php_learning/Factorial.php">Link to Factorial</a>
     </div>
