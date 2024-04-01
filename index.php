@@ -155,6 +155,15 @@
         <a href="/php_learning/AutoComplete.php">Link to AutoComplete</a>
     </div>
 </div>
+<br>
+<div id="main">
+    <div class="box">
+        <a href="/php_learning/XMLParser.php">Link to XML Parser</a>
+    </div>
+    <div class="box">
+        <a href="/jquery_learning/Ajax.php">Link to Ajax File</a>
+    </div>
+</div>
 
 </body>
 </html>
