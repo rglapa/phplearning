@@ -9,6 +9,7 @@
                 document.getElementById("livesearch").style.border = "0px";
             }
 
+            let xmlhttp;
             if (window.XMLHttpRequest) {
                 xmlhttp = new XMLHttpRequest();
             } else {
