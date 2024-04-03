@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Not</title>
+    <meta charset="UTF-8">
+    <title>Plugin Example</title>
     <link rel="stylesheet" href="/styles.css">
     <script src="/jquery.min.js"></script>
+    <script src="/jquery_learning/jquery/jquery.debug.js"></script>
     <script>
         $(function() {
-            $("p").not(".intro").css("background-color","yellow");
+            $('#div1').warning();
+            $('p').warning();
         })
     </script>
 </head>
 <body>
-<h1>Welcome to the Homepage</h1>
-
-<p>My name is Donald.</p>
-<p class="intro">I live in Duckberg.</p>
-<p class="intro">I love Duckberg.</p>
-<p>My best friend is Mickey.</p>
-<br>
+<p>This is a paragraph</p>
+<div id="div1">This is a division</div>
 <div class="box">
     <a href="/index.php">Link to Home</a>
 </div>

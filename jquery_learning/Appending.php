@@ -3,7 +3,7 @@
 <head>
     <title>Appending</title>
     <link rel="stylesheet" href="/styles.css">
-    <script src="/jquery.js"></script>
+    <script src="/jquery.min.js"></script>
     <script>
         $(function() {
             $("#btn1").on("click", function() {

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>GetPost</title>
-    <script src="/jquery.js"></script>
+    <script src="/jquery.min.js"></script>
     <script>
         $(function() {
             $("button").on("click", function() {

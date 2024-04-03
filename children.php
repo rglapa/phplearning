@@ -11,7 +11,7 @@
             margin: 15px;
         }
     </style>
-    <script src="jquery.js"></script>
+    <script src="jquery.min.js"></script>
     <script>
         $(function() {
             $("divp2").children().css({"color":"red", "border":"2px solid red"})
