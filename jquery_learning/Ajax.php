@@ -6,7 +6,7 @@
     <script src="/jquery.js"></script>
     <script>
         $(function() {
-            $("#driver").on("click",function(event) {
+            $("#driver").on("click",function() {
                 $('#stage').load('jquery/result.html');
             });
         });
@@ -14,7 +14,7 @@
 </head>
 <body>
 <p>Click on the button to load /jquery/result.html file -</p>
-<div id="stage" style="background-color:cc0;">
+<div id="stage" style="background-color:white;">
     STAGE
 </div>
 

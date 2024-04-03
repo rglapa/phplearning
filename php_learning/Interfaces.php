@@ -11,24 +11,22 @@ interface Animal {
 }
 
 class Cat implements Animal {
-    public function makeSound()
+    public function makeSound(): void
     {
         echo "Meow";
     }
 }
 
 class Dog implements Animal {
-    public function makeSound()
+    public function makeSound(): void
     {
-        // TODO: Implement makeSound() method.
         echo " Bark ";
     }
 }
 
 class Mouse implements Animal {
-    public function makeSound()
+    public function makeSound(): void
     {
-        // TODO: Implement makeSound() method.
         echo " Squeak ";
     }
 }

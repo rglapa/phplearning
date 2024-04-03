@@ -163,6 +163,24 @@
     <div class="box">
         <a href="/jquery_learning/Ajax.php">Link to Ajax File</a>
     </div>
+    <div class="box">
+        <a href="/php_learning/Cookies.php">Link to Cookies</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/MySQLInsert.php">Link to MySQL</a>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div class="box">
+        <a href="/php_learning/AJAXPoll.php">Link to Ajax Poll</a>
+    </div>
+    <div class="box">
+        <a href="/AJAX/AJAXSQL.html">Link to Ajax/SQL</a>
+    </div>
+    <div class="box">
+        <a href="/php_learning/XMLDOM.php">Link to XML DOM</a>
+    </div>
 </div>
 
 </body>
