@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Echo</title>
-    <script src="/jquery.js"></script>
+    <script src="/jquery.min.js"></script>
 </head>
 <body>
 

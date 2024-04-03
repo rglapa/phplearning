@@ -2,7 +2,7 @@
 <html lang="el">
 <head>
     <title>Filtering</title>
-    <script src="/jquery.js"></script>
+    <script src="/jquery.min.js"></script>
     <script>
         $(function() {
             $("div").first().css("background-color", "yellow");

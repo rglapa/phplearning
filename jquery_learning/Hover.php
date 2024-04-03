@@ -3,7 +3,7 @@
 <head>
     <title>Hover</title>
     <link rel="stylesheet" href="/styles.css">
-    <script src="/jquery.js"></script>
+    <script src="/jquery.min.js"></script>
     <script>
         $(function() {
             $("#p1").on("mouseenter", function() {
