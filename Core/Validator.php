@@ -13,4 +13,9 @@ class Validator
     {
         return filter_var($value, FILTER_VALIDATE_EMAIL);
     }
+
+    public static function greaterThan(int $value, int $greaterThan): bool
+    {
+        return $value > $greaterThan;
+    }
 }

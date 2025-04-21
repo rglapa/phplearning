@@ -24,13 +24,24 @@ function authorize($condition, $status = RESPONSE::FORBIDDEN): void
     }
 }
 
-function base_path($path): string
+function base_path($path): mixed
 {
     return BASE_PATH . $path;
 }
 
-function view($path, $attributes = []): void
+function view($path, $attributes = [])
 {
     extract($attributes);
     require base_path("views/" . $path);
+}
+
+function redirect($path)
+{
+    header("location: {$path}");
+    exit();
+}
+
+function old($key, $default = '')
+{
+    return Core\Session::get('old')[$key] ?? $default;
 }

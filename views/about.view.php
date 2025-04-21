@@ -1,11 +1,11 @@
-<?php require 'partials/header.php'; ?>
-<?php require 'partials/nav.php'; ?>
-<?php require 'partials/banner.php'; ?>
+<?php require "partials/header.php"; ?>
+<?php require "partials/nav.php"; ?>
+<?php require "partials/banner.php"; ?>
 
     <main>
-        <div>
+        <div class="ml-3">
             test
         </div>
     </main>
 
-<?php require 'partials/footer.php'; ?>
+<?php require "partials/footer.php"; ?>

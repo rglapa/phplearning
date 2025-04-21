@@ -24,4 +24,4 @@
 
 </main>
 
-<?php require __DIR__ . "/../partials/footer.php"; ?>
+<?php require base_path("views/partials/footer.php"); ?>
