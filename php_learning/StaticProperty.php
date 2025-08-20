@@ -12,7 +12,7 @@ class pi {
 echo pi::$value;
 ?>
 <div class="box">
-    <p><a href="/index.php">Link to Home</a></p>
+    <p><a href="/index.html">Link to Home</a></p>
 </div>
 </body>
 </html>

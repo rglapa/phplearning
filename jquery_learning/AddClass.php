@@ -26,6 +26,6 @@
 
         <p>This is a paragraph.</p>
         <p>This is not a paragraph</p>
-        <a href="/index.php">Link to Home</a>
+        <a href="/index.html">Link to Home</a>
     </body>
 </html>

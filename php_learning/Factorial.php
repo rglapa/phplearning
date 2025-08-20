@@ -19,7 +19,7 @@
 ?>
 <br><br>
 <div class="box">
-    <a href="/index.php">Link to Home</a>
+    <a href="/index.html">Link to Home</a>
 </div>
 </body>
 </html>

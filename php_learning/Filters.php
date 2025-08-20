@@ -16,6 +16,6 @@ if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>
     echo("Variable value is within the legal range");
 }
 ?>
-<p><a href="/index.php">Link to Home</a></p>
+<p><a href="/index.html">Link to Home</a></p>
 </body>
 </html>

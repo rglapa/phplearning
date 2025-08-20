@@ -11,8 +11,8 @@
 ;(function($) {
 "use strict";
 
-var ver = 'Lite-1.7';
-var msie = /MSIE/.test(navigator.userAgent);
+    const ver = 'Lite-1.7';
+    var msie = /MSIE/.test(navigator.userAgent);
 
 $.fn.cycle = function(options) {
     return this.each(function() {

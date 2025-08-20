@@ -20,6 +20,6 @@ class Fruit {
 
 $apple = new Fruit("Apple","red");
 ?>
-<p><a href="/index.php">Link to Home</a></p>
+<p><a href="/index.html">Link to Home</a></p>
 </body>
 </html>
