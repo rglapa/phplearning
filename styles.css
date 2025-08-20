@@ -9,7 +9,7 @@ a {
     background-color: lightgray;
     padding: 4px;
     box-sizing: border-box;
-    border: 2px solid blue;
+    border: 2px solid red;
     position: relative;
     text-align: center;
 }
@@ -23,6 +23,10 @@ html h1 {
 html h2 {
     text-align: center;
     color: grey;
+}
+#jqueryLearn {
+    color: aquamarine;
+    font-style: italic;
 }
 #exampleSlider {
     position: relative;
@@ -97,12 +101,12 @@ html h2 {
     left: 10px;
     background: aqua;
 }
-#main {
+.main {
     width:auto;
     display: flex;
 }
 
-#main div {
+.main div {
     -ms-flex: 1;
     flex: 1;
 }

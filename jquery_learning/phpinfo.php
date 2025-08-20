@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="box" style="margin-left:50%">
-    <a href="/index.php">Link to Home</a>
+    <a href="/index.html">Link to Home</a>
 </div>
 <?php
 phpinfo();

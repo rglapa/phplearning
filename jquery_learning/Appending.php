@@ -7,7 +7,7 @@
     <script>
         $(function() {
             $("#btn1").on("click", function() {
-                $("p").append(" <b>Appended text</b>.");
+                $("#p1").append(" <b>Appended text</b>.");
             });
             $("#btn2").on("click", function() {
                 $("ol").append("<li>Appended item.</li>");
@@ -31,7 +31,7 @@
 
 <br>
 <div class="box">
-    <a href="/index.php">Link to Home</a>
+    <a href="/index.html">Link to Home</a>
 </div>
 </body>
 </html>

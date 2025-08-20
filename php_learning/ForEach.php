@@ -13,7 +13,7 @@ foreach ($arr as $val) {
 ?>
 <br><br>
 <div class="box">
-    <a href="/index.php">Link To Home</a>
+    <a href="/index.html">Link To Home</a>
 </div>
 </body>
 </html>
