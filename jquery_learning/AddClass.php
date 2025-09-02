@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <script src="jquery.js"></script>
+        <script src="../jquery-3.7.1.min.js"></script>
         <script>
-            $(function() {
-                $("button").on('click',(function() {
-                    $("h1,h2,p").addClass("blue");
-                    $("div").addClass("important");
-                })
-            })
+            $(document).ready(function(){
+                $("p").click(function() {
+                    $(this).hide();
+                });
+            });
         </script>
+        <title>
+            Hteor
+        </title>
         <style>
             .important {
                 font-weight: bold;
