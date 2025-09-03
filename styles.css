@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 a {
     text-decoration: none;
 }
@@ -24,10 +26,7 @@ html h2 {
     text-align: center;
     color: grey;
 }
-#jqueryLearn {
-    color: aquamarine;
-    font-style: italic;
-}
+
 #exampleSlider {
     position: relative;
     border: 1px solid black;
@@ -55,7 +54,7 @@ html h2 {
     position: relative;
     vertical-align: top;
     border: 1px solid green;
-    border-right: none;
+    border-right: non;
     width: 20%;
 }
 @media (max-width: 1200px) {
