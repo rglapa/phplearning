@@ -2,15 +2,18 @@
 <html lang='en'>
 <head>
     <title>Home Page</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link href="./output.css" rel="stylesheet">
 </head>
 <body>
 <h2>JQuery Learning</h2>
 
 <div id="jqueryLearn">
     <?php echo $orange; ?>
+    <div class="text-3xl text-red-300">
+        Hello World
+    </div>
     <div class="main">
-        <div class="box">
+        <div class="box text-2xl">
 
             <a href="../jquery_learning/AddClass.html">Link to Add Class</a>
         </div>
