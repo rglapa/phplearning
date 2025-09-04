@@ -25,7 +25,7 @@
         Hello World
     </div>
     <div class="main">
-        <div class="box text-2xl">
+        <div class="box text-2xl border-2 border-orange-300 text-center">
 
             <a href="../jquery_learning/AddClass.html">Link to Add Class</a>
         </div>
