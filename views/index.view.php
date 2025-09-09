@@ -3,18 +3,27 @@
 <head>
     <title>Home Page</title>
     <link href="./output.css" rel="stylesheet">
+    
 </head>
 <body>
-<h2>JQuery Learning</h2>
+    <h2>JQuery Learning</h2>
 
 <div id="jqueryLearn">
     <?php echo $orange; ?>
+    <div class=" text-violet-500 border-2 border-orange-300 w-min mt-4">
+        <div class="p-4">
+            <?php
+            foreach ($colors as $color) {
+                echo ($color) . '<br>';
+            } ?>
+        </div>
+    </div>
     <div class="text-3xl text-red-300">
         Hello World
     </div>
-    <div class="main">
-        <div class="box text-2xl border-2 border-orange-300 text-center">
-
+    <div class="JQuery">
+        <div class="main">
+        <div class="box">
             <a href="../jquery_learning/AddClass.html">Link to Add Class</a>
         </div>
         <div class="box">
@@ -88,9 +97,11 @@
         </div>
     </div>
 </div>
+</div>
 <br>
 <hr style="border-top: 5px solid red">
-<h2>PHP Learning</h2>
+<h2 class="pt-4">PHP Learning</h2>
+<div class="PHP">
 <div id="phpLearn">
     <div class="main">
         <div class="box">
@@ -197,6 +208,6 @@
         </div>
     </div>
 </div>
-
+</div>
 </body>
 </html>
