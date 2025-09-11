@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@source "./jquery_learning";
 
 .JQuery {
     @apply pt-4;
@@ -42,6 +43,10 @@ html h1 {
 html h2 {
     text-align: center;
     color: grey;
+}
+
+.backButton {
+    @apply text-green-500;
 }
 
 #exampleSlider {
