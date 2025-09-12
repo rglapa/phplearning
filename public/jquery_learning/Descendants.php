@@ -31,7 +31,7 @@
     </p>
 </div>
 <div class="box">
-    <p><a href="/index.php">Link to Home</a></p>
+    <p><a href="/">Link to Home</a></p>
 </div>
 
 </body>

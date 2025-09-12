@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
+<!-- <head>
     <title>AJAX</title>
     <link rel="stylesheet" href="/styles.css">
     <script src="/jquery.min.js"></script>
@@ -11,10 +10,9 @@
             });
         });
     </script>
-</head>
-<body>
+</head> -->
 <p>Click on the button to load /jquery/result.html file -</p>
-<div id="stage" style="background-color:white;">
+<div id="stage" class="text-red-400">
     STAGE
 </div>
 
@@ -23,5 +21,4 @@
 <div class="box">
     <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />

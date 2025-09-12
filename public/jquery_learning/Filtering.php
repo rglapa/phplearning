@@ -31,7 +31,7 @@
 <br>
 
 <div>
-    <button onclick="location.href='/index.php'">Link to Home</button>
+    <button onclick="location.href='/'">Link to Home</button>
 </div>
 </body>
 </html>

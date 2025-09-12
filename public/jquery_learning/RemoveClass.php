@@ -11,6 +11,6 @@
 </head>
 <body>
 <p>Test text</p>
-<button onclick="location.href='/index.php'">Link to Home</button>
+<button onclick="location.href='/'">Link to Home</button>
 </body>
 </html>
