@@ -15,6 +15,9 @@ switch ($requestPath) {
     case '/Hover':
         require __DIR__ . '/jquery_learning/Hover.php';
     break;
+    case '/Ajax':
+        require __DIR__ . '/jquery_learning/Ajax.php';
+    break;
     default:
     http_response_code(404);
     require __DIR__ . '/views/404.view.php';

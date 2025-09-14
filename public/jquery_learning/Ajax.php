@@ -15,6 +15,9 @@
 <div id="stage" class="text-red-400">
     STAGE
 </div>
+<div class="text-blue-400">
+    STAGE
+</div>
 
 <input type="button" id="driver" value="Load Data"/>
 <br><br>
