@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Advanced Filters</title>
-</head>
-<body>
-
+<endheading />
 <?php
 $int = 122;
 $min = 1;
@@ -16,6 +12,7 @@ if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>
     echo("Variable value is within the legal range");
 }
 ?>
-<p><a href="/index.html">Link to Home</a></p>
-</body>
-</html>
+<br>
+Test text
+<p><a href="/">Link to Home</a></p>
+<footer/>

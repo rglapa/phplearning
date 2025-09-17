@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="el">
-<head>
+<heading />
     <title>Filtering</title>
     <script src="/jquery.min.js"></script>
     <script>
@@ -8,8 +6,7 @@
             $("div").first().css("background-color", "yellow");
         })
     </script>
-</head>
-<body>
+<endheading />
 <h1>Welcome to my Homepage</h1>
 <p>This is sort of a paragraph</p>
 <div style="border: 1px solid black">
@@ -30,8 +27,7 @@
 </div>
 <br>
 
-<div>
-    <button onclick="location.href='/'">Link to Home</button>
+<div class="box">
+    <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />

@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Ajax Poll</title>
     <link rel="stylesheet" href="/styles.css">
     <script>
@@ -15,8 +13,7 @@
             xmlhttp.send();
         }
     </script>
-</head>
-<body>
+<endheading />
 <div id="poll">
     <h3>Do you like PHP and AJAX so far?</h3>
     <form>
@@ -28,7 +25,6 @@
 </div>
 <br>
 <div class="box">
-    <a href="/index.html">Link to Home</a>
+    <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />

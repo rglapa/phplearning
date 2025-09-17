@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<heading />
 <head>
     <title>Abstract Classes</title>
 </head>
 <body>
+    <div class="text-amber-400">
+        Test text
+        </div>
 <?php
 // Parent class
 abstract class Car {
@@ -46,6 +48,5 @@ echo "<br>";
 $citrogen = new citrogen("Citrogen");
 echo $citrogen->intro()
 ?>
-<p><button onclick="location.href='/index.php'">Link to Home</button></p>
-</body>
-</html>
+<p><button onclick="location.href='/'">Link to Home</button></p>
+<footer />

@@ -16,7 +16,7 @@
             
         </div>
     </div>
-    <div class="text-3xl text-red-300">
+    <div class="text-3xl text-blue-400">
         Hello World
     </div>
     <div class="JQuery">
@@ -25,73 +25,71 @@
             <a href="/AddClass">Link to Add Class</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/Ajax.php">Link to Ajax File</a>
+            <a href="/Ajax">Link to Ajax File</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/Chaining.html">Link to Chaining</a>
+            <a href="/Chaining">Link to Chaining</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/Filtering.php">Link to Filtering</a>
-        </div>
-    </div>
-    <br>
-    <div class="main">
-        <div class="box">
-            <a href="../jquery_learning/Appending.php">Link to Appending</a>
-        </div>
-        <div class="box">
-            <a href="../jquery_learning/Descendants.php">Link to Descending</a>
-        </div>
-        <div class="box">
-            <a href="../jquery_learning/Dimensions.html">Link to Dimensions</a>
-        </div>
-        <div class="box">
-            <a href="../jquery_learning/Filtering.php">Link to Filtering</a>
+            <a href="/filtering">Link to Filtering</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../jquery_learning/Finding.php">Link to Finding</a>
+            <a href="/Appending">Link to Appending</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/GetPost.html">Link to GetPost</a>
+            <a href="/Descendants">Link to Descending</a>
+        </div>
+        <div class="box">
+            <a href="/Dimensions">Link to Dimensions</a>
+        </div>
+        
+    </div>
+    <br>
+    <div class="main">
+        <div class="box">
+            <a href="/Finding">Link to Finding</a>
+        </div>
+        <div class="box">
+            <a href="/GetPost">Link to GetPost</a>
         </div>
         <div class="box">
             <a href="/Hover">Link to Hover</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/Not.php">Link to Not</a>
+            <a href="/Not">Link to Not</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../jquery_learning/RemoveClass.php">Link to Remove Class</a>
+            <a href="/RemoveClass">Link to Remove Class</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/ReplaceElements.html">Link to Replace Elements</a>
+            <a href="/ReplaceElements">Link to Replace Elements</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/JQueryPluginExample.html">Jquery Plugin Example</a>
+            <a href="/JQueryPluginExample">Jquery Plugin Example</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/jquery/PagePilingExample.html">Link to PagePiling</a>
+            <a href="/PagePilingExample">Link to PagePiling</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../jquery_learning/blockrain/Blockrain.html">Link to Blockrain</a>
+            <a href="/Blockrain">Link to Blockrain</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/Jcrop/JCrop%20Page.html">Link to JCrop</a>
+            <a href="/JCrop%20Page">Link to JCrop</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/MultisliderTest.html">Link to Multislider</a>
+            <a href="/MultisliderTest">Link to Multislider</a>
         </div>
         <div class="box">
-            <a href="../jquery_learning/jquery/ASPTest.html">Link to ASPTest</a>
+            <a href="/ASPTest">Link to ASPTest</a>
         </div>
     </div>
 </div>
@@ -103,106 +101,112 @@
 <div id="phpLearn">
     <div class="main">
         <div class="box">
-            <a href="../php_learning/Abstract.php">Link to Abstract</a>
+            <a href="/Abstract">Link to Abstract</a>
         </div>
         <div class="box">
-            <a href="../php_learning/AJAXPoll.php">Link to AJAX Poll</a>
+            <a href="/AJAXPoll">Link to AJAX Poll</a>
         </div>
         <div class="box">
-            <a href="../php_learning/AutoComplete.php">Link to AutoComplete</a>
+            <a href="/AutoComplete">Link to AutoComplete</a>
         </div>
         <div class="box">
-            <a href="../php_learning/CompleteForm.php">Link to CompleteForm</a>
-        </div>
-    </div>
-    <br>
-    <div class="main">
-        <div class="box">
-            <a href="../php_learning/ConnectToMySQL.php">Link to ConnectToMySQL</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/Constructor.php">Link to Constructor</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/Cookies.php">Link to Cookies</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/CreateTable.php">Link to CreateTable</a>
+            <a href="/CompleteForm">Link to CompleteForm</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../php_learning/Destructor.php">Link to Destructor</a>
+            <a href="/ConnectToMySQL">Link to ConnectToMySQL</a>
         </div>
         <div class="box">
-            <a href="../php_learning/Echoing.php">Link to Echoing</a>
+            <a href="/Constructor">Link to Constructor</a>
         </div>
         <div class="box">
-            <a href="../php_learning/example.php">Link to example</a>
+            <a href="/Cookies">Link to Cookies</a>
         </div>
         <div class="box">
-            <a href="../php_learning/Factorial.php">Link to Factorial</a>
-        </div>
-    </div>
-    <br>
-    <div class="main">
-        <div class="box">
-            <a href="../php_learning/FileCreation.php">Link to FileCreation</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/Filters.php">Link to Filters</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/ForEach.php">Link to ForEach</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/Form.php">Link to Form</a>
+            <a href="/CreateTable">Link to CreateTable</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../php_learning/hello.php">Link to Hello</a>
+            <a href="/Destructor">Link to Destructor</a>
         </div>
         <div class="box">
-            <a href="../php_learning/InsertMultipleSQLData.php">Link to Multiple SQL Data</a>
+            <a href="/Echoing">Link to Echoing</a>
         </div>
         <div class="box">
-            <a href="../php_learning/InsertSQLData.php">Link to SQL Data</a>
+            <a href="/example">Link to example</a>
         </div>
         <div class="box">
-            <a href="../php_learning/Interfaces.php">Link to Interfaces</a>
-        </div>
-    </div>
-    <br>
-    <div class="main">
-        <div class="box">
-            <a href="../php_learning/Iterables.php">Link to Iterables</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/LogicalOperators.php">Link to Logical Operators</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/MySQLInsert.php">Link to MySQLInsert</a>
-        </div>
-        <div class="box">
-            <a href="../php_learning/PassingFunctions.php">Link to Passing Functions</a>
+            <a href="/Factorial">Link to Factorial</a>
         </div>
     </div>
     <br>
     <div class="main">
         <div class="box">
-            <a href="../php_learning/SQLDeleteData.php">Link to SQLDeleteData</a>
+            <a href="/FileCreation">Link to FileCreation</a>
         </div>
         <div class="box">
-            <a href="../php_learning/StaticProperty.php">Link to Static Property</a>
+            <a href="/filtering">Link to Filters</a>
         </div>
         <div class="box">
-            <a href="../php_learning/XMLDOM.php">Link to XMLDOM</a>
+                <a href="/ForEach.php">Link to ForEach</a>
+            </div>
+        <div class="box">
+            <a href="/Form">Link to Form</a>
+        </div>
+    </div>
+    <br>
+    <div class="main">
+        <div class="box">
+            <a href="/hello">Link to Hello</a>
         </div>
         <div class="box">
-            <a href="../php_learning/XMLParser.php">Link to XMLParser</a>
+            <a href="/InsertMultipleSQLData">Link to Multiple SQL Data</a>
+        </div>
+        <div class="box">
+            <a href="/InsertSQLData">Link to SQL Data</a>
+        </div>
+        <div class="box">
+            <a href="/Interfaces">Link to Interfaces</a>
+        </div>
+    </div>
+    <br>
+    <div class="main">
+        <div class="box">
+            <a href="/Iterables">Link to Iterables</a>
+        </div>
+        <div class="box">
+            <a href="/LogicalOperators">Link to Logical Operators</a>
+        </div>
+        <div class="box">
+            <a href="/MySQLInsert">Link to MySQLInsert</a>
+        </div>
+        <div class="box">
+            <a href="/PassingFunctions">Link to Passing Functions</a>
+        </div>
+    </div>
+    <br>
+    <div class="main">
+        <div class="box">
+            <a href="/SQLDeleteData">Link to SQLDeleteData</a>
+        </div>
+        <div class="box">
+            <a href="/StaticProperty">Link to Static Property</a>
+        </div>
+        <div class="box">
+            <a href="/XMLDOM">Link to XMLDOM</a>
+        </div>
+        <div class="box">
+            <a href="/XMLParser">Link to XMLParser</a>
+        </div>
+    </div>
+    <br>
+    <div class="main">
+        <div class="box">
+            <a href="/Filters">Link to Filtering</a>
         </div>
     </div>
 </div>

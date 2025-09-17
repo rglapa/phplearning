@@ -1,5 +1,4 @@
 /*! tailwindcss v4.1.12 | MIT License | https://tailwindcss.com */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -9,9 +8,12 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-300: oklch(80.8% 0.114 19.571);
+    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-orange-300: oklch(83.7% 0.128 66.29);
+    --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-blue-300: oklch(80.9% 0.105 251.813);
+    --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-violet-500: oklch(60.6% 0.25 292.717);
     --spacing: 0.25rem;
     --text-3xl: 1.875rem;
@@ -259,8 +261,14 @@
   .text-nowrap {
     text-wrap: nowrap;
   }
-  .text-red-300 {
-    color: var(--color-red-300);
+  .text-amber-400 {
+    color: var(--color-amber-400);
+  }
+  .text-blue-400 {
+    color: var(--color-blue-400);
+  }
+  .text-red-400 {
+    color: var(--color-red-400);
   }
   .text-violet-500 {
     color: var(--color-violet-500);
@@ -278,6 +286,7 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .JQuery {
   padding-top: calc(var(--spacing) * 4);
 }
@@ -287,11 +296,14 @@
 .box {
   margin-right: 3rem;
   margin-left: 3rem;
+  width: min-content;
   border-style: var(--tw-border-style);
   border-width: 2px;
   border-color: var(--color-orange-300);
+  padding: calc(var(--spacing) * 3);
   text-align: center;
   font-family: var(--font-roboto);
+  text-wrap: nowrap;
   &:hover {
     @media (hover: hover) {
       color: var(--color-blue-300);
