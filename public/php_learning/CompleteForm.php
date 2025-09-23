@@ -18,7 +18,7 @@
 </form>
 <br>
 <div class="box">
-    <a href="/index.html">Link to Home</a>
+    <a href="/">Link to Home</a>
 </div>
 </body>
 </html>

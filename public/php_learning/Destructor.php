@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Destructor</title>
-</head>
-<body>
+<endheading />
 <?php
 class Fruit {
     public $name;
@@ -20,6 +17,7 @@ class Fruit {
 
 $apple = new Fruit("Apple","red");
 ?>
-<p><a href="/index.html">Link to Home</a></p>
-</body>
-</html>
+<div class="box">
+    <a href="/">Link to Home</a>
+</div>
+<footer />

@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Constructor</title>
-</head>
-<body>
+<endheading />
 <?php
 class Fruit {
     public $name;
@@ -25,6 +22,5 @@ $apple = new Fruit("Apple", "red");
 echo $apple->get_name() . '<br>';
 echo $apple->get_color();
 ?>
-<p><a href="/index.html">Link to Home</a></p>
-</body>
-</html>
+<p><a href="/">Link to Home</a></p>
+<footer />

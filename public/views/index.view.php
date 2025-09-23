@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link href="output.css" rel="stylesheet">
-</head>
-<body>
+<endheading />
 
     <h2>JQuery Learning</h2>
 
@@ -71,7 +68,7 @@
             <a href="/ReplaceElements">Link to Replace Elements</a>
         </div>
         <div class="box">
-            <a href="/JQueryPluginExample">Jquery Plugin Example</a>
+            <a href="/JqueryPluginExample">Jquery Plugin Example</a>
         </div>
         <div class="box">
             <a href="/PagePilingExample">Link to PagePiling</a>
@@ -87,9 +84,6 @@
         </div>
         <div class="box">
             <a href="/MultisliderTest">Link to Multislider</a>
-        </div>
-        <div class="box">
-            <a href="/ASPTest">Link to ASPTest</a>
         </div>
     </div>
 </div>
@@ -149,10 +143,10 @@
             <a href="/FileCreation">Link to FileCreation</a>
         </div>
         <div class="box">
-            <a href="/filtering">Link to Filters</a>
+            <a href="/Filters">Link to Filters</a>
         </div>
         <div class="box">
-                <a href="/ForEach.php">Link to ForEach</a>
+                <a href="/ForEach">Link to ForEach</a>
             </div>
         <div class="box">
             <a href="/Form">Link to Form</a>
@@ -161,7 +155,7 @@
     <br>
     <div class="main">
         <div class="box">
-            <a href="/hello">Link to Hello</a>
+            <a href="/Hello">Link to Hello</a>
         </div>
         <div class="box">
             <a href="/InsertMultipleSQLData">Link to Multiple SQL Data</a>
@@ -211,5 +205,4 @@
     </div>
 </div>
 </div>
-</body>
-</html>
+<footer />

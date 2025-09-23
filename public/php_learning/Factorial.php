@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Factorial</title>
     <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+<endheading />
 <?php
     function factorial ($n) {
         if ($n == 1) {
@@ -19,7 +16,6 @@
 ?>
 <br><br>
 <div class="box">
-    <a href="/index.html">Link to Home</a>
+    <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />

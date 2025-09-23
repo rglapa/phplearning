@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<heading />
     <title>Example</title>
     <style>
         span {
@@ -25,8 +23,7 @@
             }
         }
     </script>
-</head>
-<body>
+<endheading />
 <p><b>Search your favorite tutorials:</b></p>
 <form>
     <label>
@@ -35,7 +32,6 @@
 </form>
 <p>Entered Course name: <span id="txtHint"></span></p>
 <div class="box">
-    <a href="/index.html">Link to Home</a>
+    <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />

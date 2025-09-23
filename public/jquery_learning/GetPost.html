@@ -1,29 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<heading />
+<title>GetPost</title>
 
-    <head>
-        <title>GetPost</title>
-
-        <script src="/jquery.min.js"></script>
-        <script>
-            $(function () {
-                $("button").on("click", function () {
-                    $.get("/demo_test.asp", function (data, status) {
-                        alert("Data: " + data + "\nStatus: " + status);
-                    })
-                })
+<script src="/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("button").on("click", function () {
+            $.get("/demo_test.asp", function (data, status) {
+                alert("Data: " + data + "\nStatus: " + status);
             })
-        </script>
-    </head>
+        })
+    })
+</script>
+<endheading />
+<button>Send an http get request to a page and get the result back.</button>
+<br>
 
-    <body>
-        <button>Send an http get request to a page and get the result back.</button>
-        <br>
-
-        <div class="backButton">
-            Test text
-        </div>
-        <button onclick="location.href='/'">Link to Home</button>
-    </body>
-
-</html>
+<div class="backButton">
+    Test text
+</div>
+<div class="box">
+    <a href="/">Link to Home</a>
+</div>
+<footer />

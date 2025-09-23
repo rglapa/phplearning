@@ -1,3 +1,5 @@
+<heading />
+<endheading />
 <?php
 $servername = "localhost";
 $username = "root";
@@ -23,3 +25,5 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating table: " . $conn->error;
 }
 $conn->close();
+?>
+<footer />

@@ -1,15 +1,13 @@
-<!DOCTYPE html>
+<heading />
 <?php
 $cookie_name = "user";
 $cookie_value = "John Doe";
 setcookie($cookie_name,$cookie_value, time() + (86400*30), "/");
 ?>
-<html lang="en">
-<head>
+
     <title>Cookies</title>
     <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+<endheading />
 
 <?php
 if(!isset($_COOKIE[$cookie_name])) {
@@ -21,7 +19,6 @@ if(!isset($_COOKIE[$cookie_name])) {
 ?>
 <br>
 <div class="box">
-    <a href="/index.html">Link to Home</a>
+    <a href="/">Link to Home</a>
 </div>
-</body>
-</html>
+<footer />
