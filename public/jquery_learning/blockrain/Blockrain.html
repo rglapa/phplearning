@@ -1,0 +1,22 @@
+<heading />
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/jquery_learning/blockrain/blockrain.css">
+<link rel="stylesheet" href="/styles.css">
+<title>Blockrain</title>
+<script src="/jquery.min.js"></script>
+<script src="/jquery_learning/blockrain/blockrain.jquery.js"></script>
+<script>
+    $(function () {
+        let game = $('.game');
+        game.blockrain({ autoplay: false, autoplayRestart: false, theme: 'candy' });
+        game.blockrain('start');
+    })
+</script>
+<endheading />
+
+<div class="game" style="width:250px;height:500px;"></div>
+<br>
+<div class="box">
+    <a href="/">Link to Home</a>
+</div>
+<footer />

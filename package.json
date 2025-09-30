@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@heroicons/vue": "^2.2.0",
     "@prettier/plugin-php": "^0.22.4",
     "@tailwindcss/cli": "^4.0.15",
@@ -9,5 +10,10 @@
   },
   "devDependencies": {
     "vite": "^6.2.5"
+=======
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+>>>>>>> side_work
   }
 }

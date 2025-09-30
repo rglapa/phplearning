@@ -1,0 +1,32 @@
+<heading />
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Chaining</title>
+    <script src="/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("button").on("click", function () {
+                $("p").css("color", "#fb7c7c");
+                $("p").fadeOut(1000);
+                $("p").fadeIn(1000);
+            })
+        })
+    </script>
+    <style>
+        button {
+            width: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Click the below button to see the result</p>
+    <button>Click Me</button>
+    <br><br>
+    <div class="box">
+        <a href="/">Link to Home</a>
+    </div>
+    <footer />
