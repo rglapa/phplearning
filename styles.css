@@ -29,7 +29,7 @@
 }
     */
 html {
-    @apply p-7 font-sans;
+    @apply font-sans;
 }
 
 @theme {

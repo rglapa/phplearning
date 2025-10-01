@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php require 'partials/header.php'; ?>
 <?php require 'partials/nav.php'; ?>
 <?php require 'partials/banner.php'; ?>
@@ -9,7 +8,6 @@
 </main>
 
 <?php require base_path('views/partials/footer.php'); ?>
-=======
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -223,4 +221,3 @@
 </div>
 </body>
 </html>
->>>>>>> a229aa2 (Update August 20)
