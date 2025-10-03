@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @summary Get request
+ * Get request
  * 
  * @param string $route
  * @param string $path_to_include

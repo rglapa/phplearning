@@ -35,6 +35,18 @@ function view($path, $attributes = [])
     require base_path("views/" . $path);
 }
 
+function viewJquery($path, $attributes = [])
+{
+    extract($attributes);
+    require base_path("public/jquery_learning/" . $path);
+}
+
+function viewPhp ($path, $attributes = [])
+{
+    extract($attributes);
+    require base_path("php_learning/" . $path);
+}
+
 function redirect($path)
 {
     header("location: {$path}");

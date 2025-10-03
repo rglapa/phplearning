@@ -3,12 +3,17 @@
 <?php require 'partials/banner.php'; ?>
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <div>
         <p>Welcome to the Dashboard</p>
+        Something is not right.
+        </div>
+        <a href="/AddClass" class="hover:text-blue-500">Add Class page</a>
     </div>
+    
 </main>
 
 <?php require base_path('views/partials/footer.php'); ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang='en'>
 <head>
     <title>Home Page</title>
@@ -220,4 +225,4 @@
 </div>
 </div>
 </body>
-</html>
+</html> -->
