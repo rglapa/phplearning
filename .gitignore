@@ -1,6 +1,7 @@
 .DS_Store
+public/output.css
 .idea/.DS_Store
 .idea/dataSources.xml
 .idea/sqldialects.xml
 jquery_learning/.DS_Store
-public/output.css
+
