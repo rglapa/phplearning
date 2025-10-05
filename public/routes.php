@@ -23,15 +23,5 @@ $router->delete('/session', 'session/destroy.php')->only('auth');
 
 $router->get('/AddClass', 'jquery_learning/addclass.php');
 $router->get('/Ajax', 'jquery_learning/ajax.php');
-// require_once __DIR__ . "/router.php";
-// 
-// get("/", "views/index.view.php");
-// get("/404", "404.php");
-// post("/", "views/index.view.php");
-// patch("/", "views/index.view.php");
-// delete("/", "views/index.view.php");
-// put("/", "views/index.view.php");
-// 
-// get("/hover", "jquery_learning/Hover.php");
-// put("/hover", "jquery_learning/Hover.php");
-?>
+$router->get('/Appending', 'jquery_learning/appending.php');
+$router->get('/Chaining', 'jquery_learning/chaining.php');
