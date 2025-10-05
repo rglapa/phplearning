@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@source "./jquery_learning";
 
-.JQuery {
+
+/* .JQuery {
     @apply pt-4;
 }
 
@@ -10,11 +10,8 @@
     @apply pt-4;
 }
 
-.box {
-    @apply border-2 border-orange-300 font-roboto text-center hover:text-blue-300 hover:underline ml-[3rem] mr-[3rem];
-}
 
-/*
+
 .box {
     margin-left: 2rem;
     margin-right: 4rem;
@@ -27,7 +24,6 @@
     position: relative;
     text-align: center;
 }
-    */
 html {
     @apply font-sans;
 }
@@ -159,4 +155,4 @@ html h2 {
     #exampleSlider .MS-controls .MS-right {
         right: -2px;
     }
-}
+} */

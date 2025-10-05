@@ -1,7 +1,7 @@
 <?php
 use Core\Session;
 use Core\ValidationException;
-const BASE_PATH = __DIR__ . "/../";
+const BASE_PATH = __DIR__ . "/../public/";
 
 session_start();
 
