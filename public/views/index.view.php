@@ -7,7 +7,7 @@
         <p class="font-roboto">Welcome to the Dashboard</p>
         Something is not right.
         </div>
-        <div id="row1" class="flex space-x-2 mt-1">
+        <div id="row1" class="grid grid-cols-4 gap-4 place-items-center mt-3">
             <div class="box">
             <a href="/AddClass" class="hover:text-blue-500">Add Class page</a>
             </div>
@@ -19,6 +19,21 @@
             </div>
             <div class="box">
                 <a href="/Chaining" class="linkC">Chaining</a>
+            </div>
+            <div class="box">
+                <a href="/Descendants" class="linkC">Descendants</a>
+            </div>
+            <div class="box">
+                <a href="/Dimensions" class="linkC">Dimensions</a>
+            </div>
+            <div class="box">
+                <a href="/filtering" class="linkC">Filtering</a>
+            </div>
+            <div class="box">
+                <a href="/finding" class="linkC">Finding</a>
+            </div>
+            <div class="box">
+                <a href="/GetPost" class="linkC">GetPost</a>
             </div>
         </div>
     </div>

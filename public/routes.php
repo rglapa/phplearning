@@ -25,3 +25,8 @@ $router->get('/AddClass', 'jquery_learning/addclass.php');
 $router->get('/Ajax', 'jquery_learning/ajax.php');
 $router->get('/Appending', 'jquery_learning/appending.php');
 $router->get('/Chaining', 'jquery_learning/chaining.php');
+$router->get('/Descendants', 'jquery_learning/Descendants.php');
+$router->get('/Dimensions', 'jquery_learning/Dimensions.php');
+$router->get('/filtering', 'jquery_learning/Filtering.php');
+$router->get('/finding', 'jquery_learning/Finding.php');
+$router->get('/GetPost', 'jquery_learning/GetPost.php');
