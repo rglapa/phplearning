@@ -9,11 +9,23 @@ class Router
 {
     protected $routes = [];
 
+    /**
+     * Get the route
+     * @param string $uri
+     * @param string $controller
+     * @return Router
+     */
     public function get($uri, $controller)
     {
         return $this->add("GET", $uri, $controller);
     }
-
+    /**
+     * Add the route
+     * @param string $method
+     * @param string $uri
+     * @param string $controller
+     * @return Router
+     */
     public function add($method, $uri, $controller)
     {
         $this->routes[] = [

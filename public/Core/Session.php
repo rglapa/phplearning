@@ -8,22 +8,38 @@ class Session
     {
         return (bool) static::get($key);
     }
-
+    /**
+     * Get the session value
+     * @param string $key
+     * @param mixed $default
+     * @return mixed
+     */
     public static function get($key, $default = null)
     {
         return $_SESSION['_flash'][$key] ?? $_SESSION[$key] ?? $default;
     }
-
+    /**
+     * Flash the session value
+     * @param string $key
+     * @param mixed $value
+     * @return void
+     */
     public static function flash($key, $value)
     {
         $_SESSION['_flash'][$key] = $value;
     }
-
+    /**
+     * Unflash the session value
+     * @return void
+     */
     public static function unflash(): void
     {
         unset($_SESSION['_flash']);
     }
-
+    /**
+     * Destroy the session
+     * @return void
+     */
     public static function destroy()
     {
         static::flush();

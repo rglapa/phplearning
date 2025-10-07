@@ -18,6 +18,7 @@
 <div class="backButton">
     Test text
 </div>
+Heading: <?php echo($heading) ?>
 <div class="box">
     <a href="/">Link to Home</a>
 </div>

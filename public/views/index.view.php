@@ -35,6 +35,12 @@
             <div class="box">
                 <a href="/GetPost" class="linkC">GetPost</a>
             </div>
+            <div class="box">
+                <a href="/Hover" class="linkC">Hover</a>
+            </div>
+            <div class="box">
+                <a href="/Not" class="linkC">Not</a>
+            </div>
         </div>
     </div>
     
