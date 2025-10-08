@@ -4,6 +4,11 @@ namespace Core;
 
 class Session
 {
+    /**
+     * Check if the session value exists
+     * @param string $key
+     * @return bool
+     */
     public static function has($key)
     {
         return (bool) static::get($key);

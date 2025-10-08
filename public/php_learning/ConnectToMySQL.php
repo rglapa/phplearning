@@ -4,9 +4,9 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "PokemonLover#1";
+$password = "Nhn7ircg";
 
-$conn = new mysqli($servername,$username,$password);
+$conn = new mysqli($servername, $username, $password);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

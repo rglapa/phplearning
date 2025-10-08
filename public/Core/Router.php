@@ -37,22 +37,45 @@ class Router
 
         return $this;
     }
-
+    /**
+     * Add the post route
+     * @param string $uri The URI to route the request to
+     * @param string $controller The controller to be executed
+     * @return Router
+     */
     public function post($uri, $controller): Router
     {
         return $this->add("POST", $uri, $controller);
     }
 
+    /**
+     * Add the delete route
+     * @param string $uri The URI to route the request to
+     * @param string $controller The controller to be executed
+     * @return Router
+     */
     public function delete($uri, $controller): Router
     {
         return $this->add("DELETE", $uri, $controller);
     }
 
+    /**
+     * Add the patch route
+     * @param string $uri The URI to route the request to
+     * @param string $controller The controller to be executed
+     * @return Router
+     */
     public function patch($uri, $controller): Router
     {
         return $this->add("PATCH", $uri, $controller);
     }
 
+    /**
+     * Add the put route
+     * @param string $uri The URI to route the request to 
+     * @param string $controller The controller to be executed
+     * @return Router
+     */
     public function put($uri, $controller): Router
     {
         return $this->add('PUT', $uri, $controller);
@@ -66,7 +89,11 @@ class Router
     }
 
     /**
+     * Route the request to the appropriate controller
+     * @param string $uri The URI to route the request to
+     * @param string $method The HTTP method to route the request with
      * @throws \Exception
+     * @return mixed The controller to be executed
      */
     public function route($uri, $method): mixed
     {
@@ -77,10 +104,14 @@ class Router
                 return require base_path('Http/controllers/' . $route['controller']);
             }
         }
-        $this->abort();
+        return $this->abort();
     }
 
-    #[NoReturn]
+    /**
+     * Abort the request
+     * @param int $code The HTTP status code to abort the request with
+     * @return void
+     */
     protected function abort($code = 404): void
     {
         http_response_code($code);

@@ -1,5 +1,9 @@
 <?php
 
+use Core\Router;
+
+$router = new Router();
+
 $router->get("/", "index.php");
 $router->get("/about", "about.php");
 $router->get("/contact", "contact.php");
@@ -32,3 +36,15 @@ $router->get('/finding', 'jquery_learning_controllers_controllers/Finding.php');
 $router->get('/GetPost', 'jquery_learning_controllers/GetPost.php');
 $router->get('/Hover', 'jquery_learning_controllers/Hover.php');
 $router->get('/Not', 'jquery_learning_controllers/Not.php');
+
+
+$router->get('/Abstract', 'php_learning_controllers/abstract.php');
+$router->get('/AJAXPoll', 'php_learning_controllers/ajaxpoll.php');
+$router->get('/Autocomplete', 'php_learning_controllers/autocomplete.php');
+$router->get('/CompleteForm', 'php_learning_controllers/completeform.php');
+$router->get('/ConnectToMySQL', 'php_learning_controllers/ConToSQL.php');
+$router->get('/Constructor', 'php_learning_controllers/constructor.php');
+$router->get('/Cookies', 'php_learning_controllers/cookies.php');
+$router->get('/CreateTable', 'php_learning_controllers/createTable.php');
+$router->get('/Cookies', 'php_learning_controllers/cookies.php');
+$router->get('/CreateTable', 'php_learning_controllers/createtable.php');

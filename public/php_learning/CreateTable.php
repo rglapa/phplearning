@@ -2,28 +2,34 @@
 <endheading />
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "PokemonLover#1";
+$username = "ruben";
+$password = "Nhn7ircg";
 $dbname = "myDB";
 
-$conn = new mysqli($servername,$username,$password, $dbname);
-if($conn->connect_error) {
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "CREATE TABLE MyGuests (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    firstname VARCHAR(30) NOT NULL,
-    lastname VARCHAR(30) NOT NULL,
-    email VARCHAR(50),
-    reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)";
+$sql = "Show Databases;";
+echo $sql . "<br><br>";
+$result = $conn->query($sql);
+$data = [];
 
-if ($conn->query($sql) === TRUE) {
-    echo "Table MyGuests created successfully";
-} else {
-    echo "Error creating table: " . $conn->error;
-}
+$output = $result->fetch_All(PDO::FETCH_ASSOC);
+echo "<pre>";
+print_r($output);
+echo "</pre>";
+// echo json_encode($data);
+// if ($conn->query($sql) === TRUE) {
+//     echo "Table MyGuests created successfully";
+// } else {
+//     echo "Error creating table: " . $conn->error;
+// }
 $conn->close();
 ?>
+
+<div class="box">
+    <a href="/">Link to Home</a>
+</div>
 <footer />
